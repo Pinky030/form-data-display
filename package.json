@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Pinky030"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "author": "Pinky",
   "license": "ISC",
