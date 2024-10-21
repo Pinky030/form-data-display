@@ -1,9 +1,7 @@
 {
   "name": "@Pinky030/form-data-display",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Pinky030"
-  },
-  "version": "1.0.3",
+
+  "version": "1.0.4",
   "description": "",
   "author": "Pinky",
   "license": "ISC",
