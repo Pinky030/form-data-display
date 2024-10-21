@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
+}
+
+h3 {
+    letter-spacing: -1px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem; 
+}
+
+.formItem {
+    flex-basis: calc(50% - 0.4rem); 
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px
+}
+
+.label {
+    color: grey;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.data {
+    background:#d3d3d333;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
