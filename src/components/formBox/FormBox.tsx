@@ -2,10 +2,10 @@ import { FormBoxProps } from "./FormBox.types"
 import './FormBox.css'
   
 const displayItem = (label: string, data: string) => {
-    return <div className="formItem">
+    return <div className="formItem" key={data}>
         <div className="label">{label}</div>
         <div className="data">{data}</div>
-    </div>
+    </ div>
 }
 
 const FormBox: React.FC<FormBoxProps> = (props) => {
