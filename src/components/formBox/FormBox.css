@@ -6,6 +6,15 @@ h3 {
     letter-spacing: -1px;
 }
 
+label {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    accent-color: #e6e6e6;
+}
+
 .formContainer {
     display: flex;
     flex-direction: row;
@@ -20,17 +29,34 @@ h3 {
     margin-top: 10px
 }
 
-.label {
+.dataLabel {
     color: grey;
     font-weight: lighter;
     font-size: 12px;
     padding-left: 3px;
 }
 
-.data {
+.textField {
     background:#d3d3d333;
     padding: 10px 12px;
     border-radius: 5px;
     margin-top: 5px;
     font-size: 14px;
+}
+
+.checkboxField {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .formItem {
+        flex-basis: 100%;
+    }
 }
